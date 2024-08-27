@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CAEC9CAB-5BDE-0926-0A3D-ABC418DE9A6F" containerWithKeyObject="CE88FD25-98B3-415E-5444-5FE82AA9AA44" localFKIndex="EF44CB4A-507B-C0C1-737E-F6EEC8AE210C" name="Arbol_Especie_FK">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-08-27 03:19:26 UTC</createdTime>
+<generatorID>33A42CB3-0E5B-ADA3-FE99-41DCAE0D7BA6</generatorID>
+<ownerDesignName>Exp1_S3_SimónRiffo</ownerDesignName>
+<referredTableLongName>Especie</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C075F3D4-E50D-474A-A309-3AF0C00C319B</referredTableID>
+<keyObject>23F513E0-F44D-5811-1B2E-900321340659</keyObject>
+<referredKeyID>23F513E0-F44D-5811-1B2E-900321340659</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_especie</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

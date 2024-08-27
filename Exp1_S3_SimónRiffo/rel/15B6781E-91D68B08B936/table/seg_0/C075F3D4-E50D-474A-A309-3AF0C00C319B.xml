@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C075F3D4-E50D-474A-A309-3AF0C00C319B" name="Especie">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-08-27 03:19:26 UTC</createdTime>
+<generatorID>46A0FB4E-204C-6275-49AB-F203557592B6</generatorID>
+<ownerDesignName>Exp1_S3_SimónRiffo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_especie" id="3CA08FD4-78B4-86F5-0FDB-1007E864F73D">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-08-27 03:19:26 UTC</createdTime>
+<generatorID>99B91523-0C1C-9988-A269-63529D16C6D3</generatorID>
+<ownerDesignName>Exp1_S3_SimónRiffo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_especie" id="9D14A78E-4DD0-28AA-2525-F850B46DE574">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-08-27 03:19:26 UTC</createdTime>
+<generatorID>59B327AE-7555-B547-D905-781BB907EC67</generatorID>
+<ownerDesignName>Exp1_S3_SimónRiffo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="6D8100EA-C278-6910-934B-18118ABACBE5">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-08-27 03:19:26 UTC</createdTime>
+<generatorID>847E53D4-00DD-ABE8-9B38-B4466BDCA609</generatorID>
+<ownerDesignName>Exp1_S3_SimónRiffo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="23F513E0-F44D-5811-1B2E-900321340659" name="Especie_PK">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-08-27 03:19:26 UTC</createdTime>
+<generatorID>414F15A4-E779-1A1C-EDB3-BF0663A63615</generatorID>
+<ownerDesignName>Exp1_S3_SimónRiffo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CA08FD4-78B4-86F5-0FDB-1007E864F73D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

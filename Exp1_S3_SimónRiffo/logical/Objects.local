@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="2490175E-07B5-4EEC-EB74-4DE8BF3DCE29" name="Arbol" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="F0D14801-4BDB-308A-6546-AE8E0035B0DF" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="46A0FB4E-204C-6275-49AB-F203557592B6" name="Especie" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="F0D14801-4BDB-308A-6546-AE8E0035B0DF" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="BBC78B30-AC00-3082-7EE9-6F575F94BEF1" name="Huerto" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="F0D14801-4BDB-308A-6546-AE8E0035B0DF" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="D1A34DE6-C224-EC7F-ADEE-3A9F999FF1EC" name="Relation_4" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="F0D14801-4BDB-308A-6546-AE8E0035B0DF" propertySourceId="BBC78B30-AC00-3082-7EE9-6F575F94BEF1" propertyTargetId="2490175E-07B5-4EEC-EB74-4DE8BF3DCE29"/>
+   <object objectType="Relation" objectID="33A42CB3-0E5B-ADA3-FE99-41DCAE0D7BA6" name="Relation_5" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="F0D14801-4BDB-308A-6546-AE8E0035B0DF" propertySourceId="46A0FB4E-204C-6275-49AB-F203557592B6" propertyTargetId="2490175E-07B5-4EEC-EB74-4DE8BF3DCE29"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

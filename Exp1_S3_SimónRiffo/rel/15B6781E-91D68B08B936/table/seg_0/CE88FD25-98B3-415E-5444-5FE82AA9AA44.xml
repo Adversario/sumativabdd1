@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE88FD25-98B3-415E-5444-5FE82AA9AA44" name="Arbol">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-08-27 03:19:26 UTC</createdTime>
+<generatorID>2490175E-07B5-4EEC-EB74-4DE8BF3DCE29</generatorID>
+<ownerDesignName>Exp1_S3_SimónRiffo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_arbol" id="0F9269C5-0B0B-FC03-44BE-06FC0ACF59A4">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-08-27 03:19:26 UTC</createdTime>
+<generatorID>E2EEE5F6-8099-6D8B-B371-50561EC4A936</generatorID>
+<ownerDesignName>Exp1_S3_SimónRiffo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="año_plantado" id="3E49D146-F8BE-DBB0-82EA-3F21D8895F2E">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-08-27 03:19:26 UTC</createdTime>
+<generatorID>3B4F3AF0-0C04-B1F2-DFC1-6A787B24B1C3</generatorID>
+<ownerDesignName>Exp1_S3_SimónRiffo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="año_muerte" id="8D10EABF-33B6-539F-18F1-3A51B7FE7665">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-08-27 03:19:26 UTC</createdTime>
+<generatorID>740B9FE7-71D4-8842-47F6-DA944224C65F</generatorID>
+<ownerDesignName>Exp1_S3_SimónRiffo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="variedad" id="23C6DC9A-B282-9A26-0CEF-D4C605A1F9E2">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-08-27 03:19:26 UTC</createdTime>
+<generatorID>52FD03D3-E3EF-F850-8914-AE4C9E8448B8</generatorID>
+<ownerDesignName>Exp1_S3_SimónRiffo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Huerto_id_huerto" id="97065637-6513-E68F-FB43-85F98EE6413E">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-08-27 03:19:26 UTC</createdTime>
+<generatorID>C6E5A949-C07D-89A3-9875-0B8150CAA1BD</generatorID>
+<ownerDesignName>Exp1_S3_SimónRiffo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1466ABF2-1960-80A4-413C-2644494743C8" referredColumn="6F3F529F-863E-6EC8-3DC3-07CCBB8CBA34"/>
+</associations>
+</Column>
+<Column name="Especie_id_especie" id="0834E533-95C5-E324-8C4A-C7B0D0CFB6C0">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-08-27 03:19:26 UTC</createdTime>
+<generatorID>FD497BB8-18F3-9EF6-4F13-661C4D706374</generatorID>
+<ownerDesignName>Exp1_S3_SimónRiffo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CAEC9CAB-5BDE-0926-0A3D-ABC418DE9A6F" referredColumn="3CA08FD4-78B4-86F5-0FDB-1007E864F73D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9BDFF20E-A10C-EFE8-5E02-70C74E22E707" name="Arbol_PK">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-08-27 03:19:26 UTC</createdTime>
+<generatorID>2C5D47C9-6DB3-31A7-7950-0D910CC7F894</generatorID>
+<ownerDesignName>Exp1_S3_SimónRiffo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F9269C5-0B0B-FC03-44BE-06FC0ACF59A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D134212D-D0A0-BFAD-497E-DDECFC2A1024" name="Arbol__IDX">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-08-27 03:19:26 UTC</createdTime>
+<ownerDesignName>Exp1_S3_SimónRiffo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D1A34DE6-C224-EC7F-ADEE-3A9F999FF1EC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="97065637-6513-E68F-FB43-85F98EE6413E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="710D3C15-A995-2505-E2D0-9FBE18F70EF4" name="Arbol__IDXv1">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-08-27 03:19:26 UTC</createdTime>
+<ownerDesignName>Exp1_S3_SimónRiffo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>33A42CB3-0E5B-ADA3-FE99-41DCAE0D7BA6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0834E533-95C5-E324-8C4A-C7B0D0CFB6C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="055CCE87-D3B9-58E4-929B-80B16D127354" name="Arbol_Huerto_FK">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-08-27 03:19:26 UTC</createdTime>
+<generatorID>D1A34DE6-C224-EC7F-ADEE-3A9F999FF1EC</generatorID>
+<ownerDesignName>Exp1_S3_SimónRiffo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97065637-6513-E68F-FB43-85F98EE6413E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF44CB4A-507B-C0C1-737E-F6EEC8AE210C" name="Arbol_Especie_FK">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-08-27 03:19:26 UTC</createdTime>
+<generatorID>33A42CB3-0E5B-ADA3-FE99-41DCAE0D7BA6</generatorID>
+<ownerDesignName>Exp1_S3_SimónRiffo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0834E533-95C5-E324-8C4A-C7B0D0CFB6C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

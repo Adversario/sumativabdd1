@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Exp1_S3_SimónRiffo" id="AD628B29-FA9F-8E3D-FEA2-67D32F28D39F" version="3.5">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-08-26 10:11:58 UTC</createdTime>
+<ownerDesignName>Exp1_S3_SimónRiffo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>AD628B29-FA9F-8E3D-FEA2-67D32F28D39F</designId>
+</OSDM_Design>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="D1A34DE6-C224-EC7F-ADEE-3A9F999FF1EC">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-08-27 03:11:14 UTC</createdTime>
+<ownerDesignName>Exp1_S3_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="15B6781E-6163-935C-DEBC-91D68B08B936" value="true"/>
+</engineerTo>
+<sourcePk>33F2AA7B-5C8D-EB21-18AB-61685B8C1E63</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BBC78B30-AC00-3082-7EE9-6F575F94BEF1</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2490175E-07B5-4EEC-EB74-4DE8BF3DCE29</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
